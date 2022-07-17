@@ -4,6 +4,7 @@ from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 import sys
 import os
+
 st.set_page_config(page_title='Data Profiler',layout='wide')
 
 def get_filesize(file):
