@@ -68,7 +68,7 @@ if uploaded_file is not None:
             
     else:
         st.error('Kindly upload .csv or xlsx file')
-else:
+else: 
     st.title('Data Profiler')
     st.info('Upload your data in the left sidebar to generate profiling ')
 
